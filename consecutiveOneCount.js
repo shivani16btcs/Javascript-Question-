@@ -23,4 +23,4 @@ for(let i=0; i<countArr.length;i++){
     }
 }
 //Final Answer
-print(max);
+console.log(max);

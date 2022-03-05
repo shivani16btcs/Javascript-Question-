@@ -20,7 +20,4 @@ var obj = [
        obj[index]=t;    
    }
    
-   for(let i=0; i<obj.length; i++){
-       
-       print("{ id : "+obj[i].id+" ,name :"+obj[i].name+"}");
-   }
+   console.log(obj)
