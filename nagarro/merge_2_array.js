@@ -1,3 +1,5 @@
+//Merge an array of size n into another array of size m+n.
+
 let a = [2,3,4,5];
 let b = [3,4,7,8,9,9];
     let m=new Array(a.length+b.length);
@@ -22,7 +24,6 @@ function merge(a,b){
           m[k++]=b[j];
          j++;
     }
-    console.log(m);
     return m;
 }
 
